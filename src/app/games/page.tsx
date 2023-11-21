@@ -1,5 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Games Blog",
+  description: "A list of Games on my Games route.",
+};
 
 type gameSearchQuery = {
   sortBy: string;

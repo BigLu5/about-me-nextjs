@@ -3,6 +3,15 @@ import Link from "next/link";
 
 type gameParam = { params: { gameslist: string } };
 
+export function generateMetadata({ params }: gameParam) {
+  const modTitle =
+    params.gameslist[0].toUpperCase() + params.gameslist.slice(1);
+  return {
+    title: `Lukes Games - ${modTitle}`,
+    description: `Lukes Games - fun facts about ${params.gameslist}`,
+  };
+}
+
 export default function Page({ params }: gameParam) {
   return (
     <div>
