@@ -18,6 +18,11 @@ export default function Header() {
                 <div className="text-white">Me</div>
               </Link>
             </li>
+            <li>
+              <Link href="/games">
+                <div className="text-white">Games</div>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
