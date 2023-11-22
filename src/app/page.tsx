@@ -11,6 +11,7 @@ export default function Home() {
           alt="Game Banner"
           width={1152}
           height={300}
+          style={{ borderRadius: "10px" }}
         />
       </div>
       <p style={{ textAlign: "center" }}>
