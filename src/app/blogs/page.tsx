@@ -9,8 +9,8 @@ export default async function BlogPage() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <ul>
         {posts.map((post) => (
-          <li>
-            {post.title}
+          <li key={post.id}>
+            {post.id}. {""}
             <Link href={`/blogs/${post.slug}`}>{post.title}</Link>
           </li>
         ))}
