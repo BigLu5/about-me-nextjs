@@ -23,6 +23,11 @@ export default function Header() {
                 <div className="text-white">Games</div>
               </Link>
             </li>
+            <li>
+              <Link href="/blogs">
+                <div className="text-white">Blog</div>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
