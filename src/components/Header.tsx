@@ -25,7 +25,7 @@ export default function Header() {
             </li>
             <li>
               <Link href="/blogs">
-                <div className="text-white">Blog</div>
+                <div className="text-white">Blog Posts</div>
               </Link>
             </li>
           </ul>
