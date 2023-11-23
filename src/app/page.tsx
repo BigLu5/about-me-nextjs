@@ -19,8 +19,10 @@ export default function Home() {
         long way since then.
       </p>
       <p style={{ textAlign: "center" }}>
-        Here is a quote to live by: "An elephant never forgets, but I forget
-        what the elephant remembered."
+        Here is a quote to live by:{" "}
+        {
+          "An elephant never forgets, but I forget what the elephant remembered."
+        }
       </p>
     </main>
   );
